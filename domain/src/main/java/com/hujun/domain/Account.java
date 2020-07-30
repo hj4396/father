@@ -1,3 +1,5 @@
+package com.hujun.domain;
+
 import java.io.Serializable;
 
 /**
