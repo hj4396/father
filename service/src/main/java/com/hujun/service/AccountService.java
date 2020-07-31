@@ -1,4 +1,4 @@
-package service;
+package com.hujun.service;
 
 import com.hujun.domain.Account;
 

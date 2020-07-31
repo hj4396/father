@@ -1,10 +1,12 @@
-package service.Impl;
+package com.hujun.service.Impl;
 
 import com.hujun.domain.Account;
-import service.AccountService;
+import com.hujun.service.AccountService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service("accountService")
 public class AccountServiceImpl implements AccountService {
     @Override
     public List<Account> findAll() {
